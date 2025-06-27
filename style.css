@@ -1,0 +1,64 @@
+@font-face {
+    font-family: digitalClock;
+    src: url(/assets/digital-7.ttf);
+  }
+  
+  div {
+    font-family: myFirstFont;
+  }
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    background-color: oklch(39.1% 0.09 240.876);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+.display {
+    height: 60px;
+    width: 300px;
+    margin: 15px;
+    background-color: oklch(55.4% 0.046 257.417);
+    border: solid;
+    border-color: oklch(27.8% 0.033 256.848);
+    border-width: 4px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center ;
+    justify-content: end;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calc-button {
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 25px;
+}
+.empty {
+    background-color: oklch(39.1% 0.09 240.876);
+    border: none;
+}
+
+.operation {
+    margin: 20px;
+    font-size: 50px;
+    font-family: digitalClock;
+}
+
+#add, #subtract, #multiply #divide, #dot, #result {
+    font-size: 30px;
+}
