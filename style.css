@@ -53,8 +53,14 @@ body {
     border: none;
 }
 
-.operation {
+.operation  {
     margin: 20px;
+    margin-right: 10px;
+    font-size: 50px;
+    font-family: digitalClock;
+}
+.operator   {
+    margin-right: 10px;
     font-size: 50px;
     font-family: digitalClock;
 }
@@ -62,3 +68,4 @@ body {
 #add, #subtract, #multiply #divide, #dot, #result {
     font-size: 30px;
 }
+
